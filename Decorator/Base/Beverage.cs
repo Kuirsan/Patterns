@@ -7,7 +7,7 @@ namespace Decorator
     public abstract class Beverage
     {
         protected string _description = "Unknown beverage";
-        public string GetDescription()
+        public virtual string GetDescription()
         {
             return _description;
         }

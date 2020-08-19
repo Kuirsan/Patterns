@@ -6,6 +6,6 @@ namespace Decorator
 {
     public abstract class CondimentDecorator:Beverage
     {
-        public new abstract string GetDescription();
+        public override abstract string GetDescription();
     }
 }
