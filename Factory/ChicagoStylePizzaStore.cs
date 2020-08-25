@@ -6,9 +6,25 @@ namespace Factory
 {
     public class ChicagoStylePizzaStore : PizzaStore
     {
-        public override Pizza CreatePizza(string type)
+        protected override Pizza CreatePizza(string type)
         {
-            throw new NotImplementedException();
+            if (type.Equals("cheese"))
+            {
+                return new ChicagoStyleCheesePizza();
+            }
+            else if (type.Equals("veggie"))
+            {
+                return new ChicagoStyleVeggiePizza();
+            }
+            else if (type.Equals("clam"))
+            {
+                return new ChicagoStyleClamPizza();
+            }
+            else if (type.Equals("pepperoni"))
+            {
+                return new ChicagoStylePepperoniPizza();
+            }
+            return new ChicagoStyleCheesePizza();
         }
     }
 }

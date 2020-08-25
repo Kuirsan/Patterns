@@ -1,27 +1,44 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Factory
 {
-    public class Pizza
+    public abstract class Pizza
     {
-        internal void prepare()
+        protected string _name;
+        protected string _dough;
+        protected string _sauce;
+        protected List<string> _toppings = new List<string>();
+        public virtual void prepare()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Preparing " + _name);
+            Console.WriteLine("Tossing dough...");
+            Console.WriteLine("Adding sauce...");
+            Console.WriteLine("Adding toppings: ");
+            foreach(var topping in _toppings)
+            {
+                Console.WriteLine(" " + topping);
+            }
         }
 
-        internal void bake()
+        public virtual void bake()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Bake for 25 minutes at 350");
         }
 
-        internal void cut()
+        public virtual void cut()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Cutting the pizza into diagonal slices");
         }
 
-        internal void box()
+        public virtual void box()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Place pizza in official PizzaStore box");
+        }
+
+        public virtual string getName()
+        {
+            return _name;
         }
     }
 }

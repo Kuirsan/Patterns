@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator", "Decorator\Deco
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DecoratorTestApp", "DecoratorTestApp\DecoratorTestApp.csproj", "{235CC838-1ACD-4088-9DAA-4C3D5DF99306}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factory", "Factory\Factory.csproj", "{2A206763-CC08-4A75-84AC-85F4EAD9F4FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Factory", "Factory\Factory.csproj", "{2A206763-CC08-4A75-84AC-85F4EAD9F4FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testDriveFabric", "testDriveFabric\testDriveFabric.csproj", "{C5673C77-5F3C-40D8-A391-AC04BF49B1A7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{2A206763-CC08-4A75-84AC-85F4EAD9F4FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A206763-CC08-4A75-84AC-85F4EAD9F4FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A206763-CC08-4A75-84AC-85F4EAD9F4FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5673C77-5F3C-40D8-A391-AC04BF49B1A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5673C77-5F3C-40D8-A391-AC04BF49B1A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5673C77-5F3C-40D8-A391-AC04BF49B1A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5673C77-5F3C-40D8-A391-AC04BF49B1A7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

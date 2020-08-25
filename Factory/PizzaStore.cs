@@ -19,6 +19,6 @@ namespace Factory
             return pizza;
         }
 
-        public abstract Pizza CreatePizza(string type);
+        protected abstract Pizza CreatePizza(string type);
     }
 }

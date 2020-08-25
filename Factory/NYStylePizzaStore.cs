@@ -6,11 +6,11 @@ namespace Factory
 {
     public class NYStylePizzaStore : PizzaStore
     {
-        public override Pizza CreatePizza(string type)
+        protected override Pizza CreatePizza(string type)
         {
             if (type.Equals("cheese"))
             {
-                return new NYStyleCgeesePizza();
+                return new NYStyleCheesePizza();
             }
             else if (type.Equals("veggie"))
             {
@@ -24,6 +24,7 @@ namespace Factory
             {
                 return new NYStylePepperoniPizza();
             }
+            return new NYStyleCheesePizza();
         }
     }
 }
