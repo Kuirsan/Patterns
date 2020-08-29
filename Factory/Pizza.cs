@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Factory.Ingredients;
+using System;
 using System.Collections.Generic;
 
 namespace Factory
@@ -6,24 +7,23 @@ namespace Factory
     public abstract class Pizza
     {
         protected string _name;
-        protected string _dough;
-        protected string _sauce;
+        protected Dough _dough;
+        protected Sauce _sauce;
+        protected Veggies[] _veggies;
+        protected Cheese _cheese;
+        protected Pepperoni _pepperoni;
+        protected Clams _clams;
         protected List<string> _toppings = new List<string>();
-        public virtual void prepare()
-        {
-            Console.WriteLine("Preparing " + _name);
-            Console.WriteLine("Tossing dough...");
-            Console.WriteLine("Adding sauce...");
-            Console.WriteLine("Adding toppings: ");
-            foreach(var topping in _toppings)
-            {
-                Console.WriteLine(" " + topping);
-            }
-        }
+        public abstract void prepare();
 
         public virtual void bake()
         {
             Console.WriteLine("Bake for 25 minutes at 350");
+        }
+
+        internal void SetName(string v)
+        {
+            _name = v;
         }
 
         public virtual void cut()
@@ -39,6 +39,10 @@ namespace Factory
         public virtual string getName()
         {
             return _name;
+        }
+        public override string ToString()
+        {
+            return base.ToString();
         }
     }
 }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Factory.Ingredients;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -8,23 +9,29 @@ namespace Factory
     {
         protected override Pizza CreatePizza(string type)
         {
+            Pizza pizza = null;
+            IPizzaIngredientFactory pizzaIngredientFactory = new ChicagoPizzaIngredientFactory();
             if (type.Equals("cheese"))
             {
-                return new ChicagoStyleCheesePizza();
+                pizza = new CheesePizza(pizzaIngredientFactory);
+                pizza.SetName("Chicago Style Cheese Pizza");
             }
             else if (type.Equals("veggie"))
             {
-                return new ChicagoStyleVeggiePizza();
+                pizza = new VeggiePizza(pizzaIngredientFactory);
+                pizza.SetName("Chicago Style Veggie Pizza");
             }
             else if (type.Equals("clam"))
             {
-                return new ChicagoStyleClamPizza();
+                pizza = new ClamPizza(pizzaIngredientFactory);
+                pizza.SetName("Chicago Style Clam Pizza");
             }
             else if (type.Equals("pepperoni"))
             {
-                return new ChicagoStylePepperoniPizza();
+                pizza = new PepperoniPizza(pizzaIngredientFactory);
+                pizza.SetName("Chicago Style Pepperoni Pizza");
             }
-            return new ChicagoStyleCheesePizza();
+            return pizza;
         }
     }
 }

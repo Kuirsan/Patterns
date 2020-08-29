@@ -10,7 +10,7 @@ namespace testDriveFabric
             PizzaStore nyStore = new NYStylePizzaStore();
             PizzaStore chicagoStore = new ChicagoStylePizzaStore();
 
-            Pizza pizza = nyStore.orderPizza("cheese");
+            Pizza pizza = nyStore.orderPizza("clam");
             Console.WriteLine("Ethan ordered a " + pizza.getName());
 
             pizza = chicagoStore.orderPizza("cheese");
