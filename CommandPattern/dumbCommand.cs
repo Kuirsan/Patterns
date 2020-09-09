@@ -10,5 +10,10 @@ namespace CommandPattern
         {
             throw new NotImplementedException();
         }
+
+        public void undo()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

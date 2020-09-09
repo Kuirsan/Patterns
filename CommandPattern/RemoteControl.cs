@@ -6,8 +6,9 @@ namespace CommandPattern
 {
     public class RemoteControl
     {
-        ICommand[] onCommands;
-        ICommand[] offCommands;
+        private ICommand[] onCommands;
+        private ICommand[] offCommands;
+        private ICommand undoCommand;
 
         public RemoteControl()
         {
@@ -20,6 +21,7 @@ namespace CommandPattern
                 onCommands[i] = new dumbCommand();
                 offCommands[i] = new dumbCommand();
             }
+            undoCommand = new dumbCommand();
         }
 
         public void setCommand(int slot,ICommand onCommand,ICommand offCommand)
@@ -31,11 +33,18 @@ namespace CommandPattern
         public void onButtonWasPushed(int slot)
         {
             onCommands[slot].execute();
+            undoCommand = onCommands[slot];
         }
 
         public void offButtonWasPushed(int slot)
         {
             offCommands[slot].execute();
+            undoCommand = offCommands[slot];
+        }
+
+        public void undoButtonWasPushed()
+        {
+            undoCommand.undo();
         }
 
         public override string ToString()
