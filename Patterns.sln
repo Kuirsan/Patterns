@@ -13,9 +13,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "testDriveFabric", "testDriv
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingletonPattern", "SingletonPattern\SingletonPattern.csproj", "{E4CB59F9-8136-4114-BE0B-012C0C0C7D83}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandPattern", "CommandPattern\CommandPattern.csproj", "{D20462A0-8CAD-4B98-9F37-A1B14A6FA5C6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommandPattern", "CommandPattern\CommandPattern.csproj", "{D20462A0-8CAD-4B98-9F37-A1B14A6FA5C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandPatternTest", "CommandPatternTest\CommandPatternTest.csproj", "{810A57B5-6F50-4404-8622-6B6578AC3E8B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommandPatternTest", "CommandPatternTest\CommandPatternTest.csproj", "{810A57B5-6F50-4404-8622-6B6578AC3E8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethodPattern", "TemplateMethodPattern\TemplateMethodPattern.csproj", "{BCA2BD07-EEED-4D13-ABED-5F2DC18D2B4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethodTestDrive", "TemplateMethodTestDrive\TemplateMethodTestDrive.csproj", "{F15748E6-C4D4-4AF9-B2AB-2838B1167115}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +55,14 @@ Global
 		{810A57B5-6F50-4404-8622-6B6578AC3E8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{810A57B5-6F50-4404-8622-6B6578AC3E8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{810A57B5-6F50-4404-8622-6B6578AC3E8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCA2BD07-EEED-4D13-ABED-5F2DC18D2B4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCA2BD07-EEED-4D13-ABED-5F2DC18D2B4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCA2BD07-EEED-4D13-ABED-5F2DC18D2B4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCA2BD07-EEED-4D13-ABED-5F2DC18D2B4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F15748E6-C4D4-4AF9-B2AB-2838B1167115}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F15748E6-C4D4-4AF9-B2AB-2838B1167115}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F15748E6-C4D4-4AF9-B2AB-2838B1167115}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F15748E6-C4D4-4AF9-B2AB-2838B1167115}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
