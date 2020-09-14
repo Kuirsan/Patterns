@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethodPattern", "Te
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethodTestDrive", "TemplateMethodTestDrive\TemplateMethodTestDrive.csproj", "{F15748E6-C4D4-4AF9-B2AB-2838B1167115}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IteratorPattern", "IteratorPattern\IteratorPattern.csproj", "{BB5B19FD-357C-49F9-B5EA-05F1163EF043}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{F15748E6-C4D4-4AF9-B2AB-2838B1167115}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F15748E6-C4D4-4AF9-B2AB-2838B1167115}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F15748E6-C4D4-4AF9-B2AB-2838B1167115}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB5B19FD-357C-49F9-B5EA-05F1163EF043}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB5B19FD-357C-49F9-B5EA-05F1163EF043}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB5B19FD-357C-49F9-B5EA-05F1163EF043}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB5B19FD-357C-49F9-B5EA-05F1163EF043}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
