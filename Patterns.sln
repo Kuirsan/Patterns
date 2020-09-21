@@ -23,6 +23,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethodTestDrive", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IteratorPattern", "IteratorPattern\IteratorPattern.csproj", "{BB5B19FD-357C-49F9-B5EA-05F1163EF043}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComponentPattern", "ComponentPattern\ComponentPattern.csproj", "{86CCA715-E2DF-4DA4-ABA5-7B36752E1232}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompositePatternTestDrive", "CompositePatternTestDrive\CompositePatternTestDrive.csproj", "{48C957AC-3350-461E-9147-847A9C5DCB4B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +73,14 @@ Global
 		{BB5B19FD-357C-49F9-B5EA-05F1163EF043}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB5B19FD-357C-49F9-B5EA-05F1163EF043}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB5B19FD-357C-49F9-B5EA-05F1163EF043}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86CCA715-E2DF-4DA4-ABA5-7B36752E1232}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86CCA715-E2DF-4DA4-ABA5-7B36752E1232}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86CCA715-E2DF-4DA4-ABA5-7B36752E1232}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86CCA715-E2DF-4DA4-ABA5-7B36752E1232}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48C957AC-3350-461E-9147-847A9C5DCB4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48C957AC-3350-461E-9147-847A9C5DCB4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48C957AC-3350-461E-9147-847A9C5DCB4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48C957AC-3350-461E-9147-847A9C5DCB4B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
