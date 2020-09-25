@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29905.134
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator", "Decorator\Decorator.csproj", "{C28D7E65-74E6-4AAF-B8BC-C8A2C9CC3264}"
 EndProject
@@ -17,15 +17,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommandPattern", "CommandPa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommandPatternTest", "CommandPatternTest\CommandPatternTest.csproj", "{810A57B5-6F50-4404-8622-6B6578AC3E8B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethodPattern", "TemplateMethodPattern\TemplateMethodPattern.csproj", "{BCA2BD07-EEED-4D13-ABED-5F2DC18D2B4A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TemplateMethodPattern", "TemplateMethodPattern\TemplateMethodPattern.csproj", "{BCA2BD07-EEED-4D13-ABED-5F2DC18D2B4A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethodTestDrive", "TemplateMethodTestDrive\TemplateMethodTestDrive.csproj", "{F15748E6-C4D4-4AF9-B2AB-2838B1167115}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TemplateMethodTestDrive", "TemplateMethodTestDrive\TemplateMethodTestDrive.csproj", "{F15748E6-C4D4-4AF9-B2AB-2838B1167115}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IteratorPattern", "IteratorPattern\IteratorPattern.csproj", "{BB5B19FD-357C-49F9-B5EA-05F1163EF043}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IteratorPattern", "IteratorPattern\IteratorPattern.csproj", "{BB5B19FD-357C-49F9-B5EA-05F1163EF043}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComponentPattern", "ComponentPattern\ComponentPattern.csproj", "{86CCA715-E2DF-4DA4-ABA5-7B36752E1232}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ComponentPattern", "ComponentPattern\ComponentPattern.csproj", "{86CCA715-E2DF-4DA4-ABA5-7B36752E1232}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompositePatternTestDrive", "CompositePatternTestDrive\CompositePatternTestDrive.csproj", "{48C957AC-3350-461E-9147-847A9C5DCB4B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompositePatternTestDrive", "CompositePatternTestDrive\CompositePatternTestDrive.csproj", "{48C957AC-3350-461E-9147-847A9C5DCB4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "statePattern", "statePattern\statePattern.csproj", "{4A7B0016-EF60-4638-B449-3706F86DD1A7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{48C957AC-3350-461E-9147-847A9C5DCB4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{48C957AC-3350-461E-9147-847A9C5DCB4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{48C957AC-3350-461E-9147-847A9C5DCB4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A7B0016-EF60-4638-B449-3706F86DD1A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A7B0016-EF60-4638-B449-3706F86DD1A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A7B0016-EF60-4638-B449-3706F86DD1A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A7B0016-EF60-4638-B449-3706F86DD1A7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
