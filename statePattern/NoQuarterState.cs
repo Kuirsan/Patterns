@@ -33,5 +33,9 @@ namespace statePattern
         {
             Console.WriteLine("You turned, but there is no quarter");
         }
+        public override string ToString()
+        {
+            return "waiting for quarter";
+        }
     }
 }

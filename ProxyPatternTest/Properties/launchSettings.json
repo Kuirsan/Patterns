@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ProxyPatternTest": {
+      "commandName": "Project",
+      "commandLineArgs": "Seattle 112"
+    }
+  }
+}

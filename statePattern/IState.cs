@@ -4,7 +4,7 @@ using System.Text;
 
 namespace statePattern
 {
-    interface IState
+    public interface IState
     {
         void InsertQuarter();
         void EjectQuarter();
