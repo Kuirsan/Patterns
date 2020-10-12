@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.168
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator", "Decorator\Decorator.csproj", "{C28D7E65-74E6-4AAF-B8BC-C8A2C9CC3264}"
 EndProject
@@ -29,9 +29,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompositePatternTestDrive",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "statePattern", "statePattern\statePattern.csproj", "{4A7B0016-EF60-4638-B449-3706F86DD1A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyPattern", "ProxyPattern\ProxyPattern.csproj", "{79AEBEC1-056E-4F3B-989D-110B58C94DB0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProxyPattern", "ProxyPattern\ProxyPattern.csproj", "{79AEBEC1-056E-4F3B-989D-110B58C94DB0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyPatternTest", "ProxyPatternTest\ProxyPatternTest.csproj", "{7E1E6831-B4FE-47BD-803D-C2C6E15489BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProxyPatternTest", "ProxyPatternTest\ProxyPatternTest.csproj", "{7E1E6831-B4FE-47BD-803D-C2C6E15489BE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "composePatterns", "composePatterns\composePatterns.csproj", "{3F25542E-DE11-4D1C-AAB1-B5B68B8030EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComposePatternTest", "ComposePatternTest\ComposePatternTest.csproj", "{BA843887-6E61-4287-9B38-79AD84CBF360}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +103,14 @@ Global
 		{7E1E6831-B4FE-47BD-803D-C2C6E15489BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E1E6831-B4FE-47BD-803D-C2C6E15489BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E1E6831-B4FE-47BD-803D-C2C6E15489BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F25542E-DE11-4D1C-AAB1-B5B68B8030EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F25542E-DE11-4D1C-AAB1-B5B68B8030EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F25542E-DE11-4D1C-AAB1-B5B68B8030EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F25542E-DE11-4D1C-AAB1-B5B68B8030EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA843887-6E61-4287-9B38-79AD84CBF360}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA843887-6E61-4287-9B38-79AD84CBF360}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA843887-6E61-4287-9B38-79AD84CBF360}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA843887-6E61-4287-9B38-79AD84CBF360}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
